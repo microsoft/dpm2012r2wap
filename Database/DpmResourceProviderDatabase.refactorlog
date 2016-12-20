@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e7f982d2-788b-4a99-8a6f-9e8dc24694fc" ChangeDateTime="03/19/2015 23:42:33">
+    <Property Name="ElementName" Value="[VMBackup].[ProtectedDataSources].[ProtectionGroupID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[VMBackup].[ProtectedDataSources]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProtectionGroupId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0c9c84a2-229d-42ca-90cb-6ace1420f46e" ChangeDateTime="03/27/2015 15:42:21">
+    <Property Name="ElementName" Value="[VMBackup].[DataSources].[DataSourceTypeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[VMBackup].[DataSources]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DataSourceStateId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ed1e3726-eb5f-44ed-8246-5af419a45032" ChangeDateTime="04/07/2015 23:48:27">
+    <Property Name="ElementName" Value="[VMBackup].[VirtualMachines].[DataSourceStateId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[VMBackup].[VirtualMachines]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VirtualMachineStateId" />
+  </Operation>
+</Operations>

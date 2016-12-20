@@ -1,0 +1,25 @@
+﻿<div id="selectRestorePointWizard">
+    <p class="aux-dialogHeader">
+        {{>data.header}}
+    </p>
+    <p class="aux-dialogSubHeader">{{>data.title}}</p>
+    <div class="aux-dialogText">{{>data.subtitle}}</div>        
+    
+    <div class="waz-config-setting"><label for="recoverySourceId">{{res "RecoverySourceField"/}}</label></div>
+    <div class="waz-config-setting-value">
+        <select id="recoverySourceId" name="recoverySourceId" class="valueWithoutUnits" size="1" required="required" data-val="true">
+            {^{for data.restorePoints}}
+            <option value="{{attr:RecoveryPointId}}">{{>DateLocation}}</option>
+            {{/for}}
+        </select>
+    </div>
+
+    <div class="waz-config-setting"><label for="restartVirtualMachine">{{res "RestartVirtualMachineField"/}}</label></div>
+    <div class="waz-config-setting-value">
+        <select id="restartVirtualMachine" name="restartVirtualMachine" class="valueWithoutUnits" size="1" required="required" data-val="true">
+            <option value="true">{{res "RestartYes"/}}</option>
+            <option value="false">{{res "RestartNo"/}}</option>
+        </select>
+    </div>
+
+</div>

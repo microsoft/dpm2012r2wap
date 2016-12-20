@@ -1,0 +1,32 @@
+﻿<div class="vmBackup-create">
+    <div class="content">
+        <div id="vmmServerInfoForm">
+            <div class="drawer-form-item">
+                <label for="vmBackup_VmmServerName">{{res "VmmServerNameLabel"/}}</label>
+                <div>
+                    <input id="vmBackup_VmmServerName" name="vmBackup_VmmServerName" type="text"
+                        data-val="true"
+                        data-val-nwk="{{res 'TheFieldMustNotContainSpecialMessage'  _encode='attr'/}}"
+                        data-val-nwk-type="idn"
+                        data-val-required="{{res 'PleaseProvideDpmServerNameMessage' _encode='attr'/}}"
+                        data-val-length="{{res 'ServerNameLengthCheckMessage' _encode='attr'/}}"
+                        data-val-length-min="3" />
+                </div>
+            </div>
+            <div class="drawer-form-item vmBackup-userNamePassword">
+                <div class="vmBackup-userName">
+                    <label for="vmBackup_VmmServerUserName">{{res "UsernameLabel"/}}</label>
+                    <input id="vmBackup_VmmServerUserName" name="vmBackup_VmmServerUserName" type="text"
+                        data-val="true"
+                        data-val-required="{{res 'PleaseProvideUsernameMessage' _encode='attr'/}}" />
+                </div>
+                <div class="vmBackup-password">
+                    <label for="vmBackup_VmmServerPassword">{{res "PasswordLabel"/}}</label>
+                    <input id="vmBackup_VmmServerPassword" name="vmBackup_VmmServerPassword" type="password"
+                        data-val="true"
+                        data-val-required="{{res 'PleaseProvidePasswordMessage' _encode='attr'/}}" />
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>

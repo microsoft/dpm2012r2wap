@@ -1,0 +1,42 @@
+﻿<div class="vmBackup-create">
+    <div class="content">
+        <div id="backupServerInfoForm">
+            <div class="drawer-form-item vmBackup-edit-item">
+                <label for="vmBackup_BackupServerName">{{res "BackupServerNameLabel"/}}</label>
+                <div>
+                    <input id="vmBackup_BackupServerName" name="vmBackup_BackupServerName" type="text"
+                        data-val="true"
+                        data-val-nwk="{{res 'TheFieldMustNotContainSpecialMessage'  _encode='attr'/}}"
+                        data-val-nwk-type="idn"
+                        data-val-required="{{res 'PleaseProvideDpmServerNameMessage' _encode='attr'/}}"
+                        data-val-length="{{res 'ServerNameLengthCheckMessage' _encode='attr'/}}"
+                        data-val-length-min="3" />
+                </div>
+            </div>
+            <div class="drawer-form-item vmBackup-userNamePassword">
+                <div class="vmBackup-userName">
+                    <label for="vmBackup_BackupServerUserName">{{res "UsernameLabel"/}}</label>
+                    <input id="vmBackup_BackupServerUserName" name="vmBackup_BackupServerUserName" type="text"
+                        data-val="true"
+                        data-val-required="{{res 'PleaseProvideUsernameMessage' _encode='attr'/}}" />
+                </div>
+                <div class="vmBackup-password">
+                    <label for="vmBackup_BackupServerPassword">{{res "PasswordLabel"/}}</label>
+                    <input id="vmBackup_BackupServerPassword" name="vmBackup_BackupServerPassword" type="password"
+                        data-val="true"
+                        data-val-required="{{res 'PleaseProvidePasswordMessage' _encode='attr'/}}" />
+                </div>
+            </div>
+            <div class="drawer-form-item vmBackup-edit-item">
+                <label for="vmBackup_GroupId">{{res "GroupLabel"/}}</label>
+                <div>
+                    <select id="vmBackup_GroupId" name="vmBackup_GroupId">
+                        {^{for groups ~currentGroupId = currentGroupId}}
+                            <option value="{{attr:GroupId}}">{{>DisplayName}}</option>
+                        {{/for}}
+                    </select>
+                </div>
+            </div>   
+        </div>  
+    </div>
+</div>

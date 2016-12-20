@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddYourExistingDpmServer" xml:space="preserve">
+    <value>Add your existing Data Protection Manager Server to a Group.</value>
+  </data>
+  <data name="AddYourExistingVmmServer" xml:space="preserve">
+    <value>Add your existing Virtual Machine Manager Server that is being managed by your Service Provider Foundation endpoint.</value>
+  </data>
+  <data name="AGroupRepresentAPoolOfServersOf" xml:space="preserve">
+    <value>A group represents a pool of servers of similar capability from which virtual machine backups can be created for your customers via Plans. One group may represent your high-end servers to be used with a high-end plan, while another represents your commodity servers to be used by a trial plan.</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteBackupServer" xml:space="preserve">
+    <value>Are you sure you want to delete backup server '{0}'?</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteServerGroup" xml:space="preserve">
+    <value>Are you sure you want to delete group '{0}'?</value>
+  </data>
+  <data name="AzureBackupEnabledLabel" xml:space="preserve">
+    <value>Azure Backup Enabled</value>
+  </data>
+  <data name="BackupServerAdditionErrorMessage" xml:space="preserve">
+    <value>There are no groups currently available to add a DPM server to.</value>
+  </data>
+  <data name="BackupServerIsCreated" xml:space="preserve">
+    <value>DPM Server '{0}' has been registered.</value>
+  </data>
+  <data name="BackupServerNameLabel" xml:space="preserve">
+    <value>DPM Server Name (FQDN)</value>
+  </data>
+  <data name="BackupServersTabName" xml:space="preserve">
+    <value>Backup Servers</value>
+  </data>
+  <data name="ColumnAzureBackupEnabled" xml:space="preserve">
+    <value>Azure Backup</value>
+  </data>
+  <data name="ColumnBackupServerCount" xml:space="preserve">
+    <value>Backup Servers</value>
+  </data>
+  <data name="ColumnGroupName" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="ColumnName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ColumnProtectionGroupCount" xml:space="preserve">
+    <value>Protection Groups</value>
+  </data>
+  <data name="ColumnStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ColumnVirtualMachineCount" xml:space="preserve">
+    <value>Virtual Machines</value>
+  </data>
+  <data name="CommandAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="CommandConnect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="CommandRemove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="CommandRepair" xml:space="preserve">
+    <value>Repair Connection</value>
+  </data>
+  <data name="CreateABackupServerLabel" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="CreateAGroupLabel" xml:space="preserve">
+    <value>Create a Server Group</value>
+  </data>
+  <data name="CreateANewBackupServer" xml:space="preserve">
+    <value>Create a new backup server</value>
+  </data>
+  <data name="CreateANewServerGroup" xml:space="preserve">
+    <value>Create a new server group</value>
+  </data>
+  <data name="CreateANewVmmServer" xml:space="preserve">
+    <value>Connect to a new VMM server.</value>
+  </data>
+  <data name="CreateAVmmServerLabel" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="CreateBackupServerSubMenu" xml:space="preserve">
+    <value>Connect Data Protection Manager Server</value>
+  </data>
+  <data name="CreateGroupSubMenu" xml:space="preserve">
+    <value>Create Server Group</value>
+  </data>
+  <data name="CreateVmmServerSubMenu" xml:space="preserve">
+    <value>Connect Virtual Machine Manager Server</value>
+  </data>
+  <data name="CreatingBackupServer" xml:space="preserve">
+    <value>Connecting to DPM Server '{0}'...</value>
+  </data>
+  <data name="CreatingServerGroup" xml:space="preserve">
+    <value>Creating Server Group '{0}'...</value>
+  </data>
+  <data name="CurrentlyRegisteredSpfEndpointDescription" xml:space="preserve">
+    <value>Currently registered System Center Service Provider Foundation endpoint: {0}</value>
+  </data>
+  <data name="DeletingBackupServer" xml:space="preserve">
+    <value>Deleting DPM Server '{0}'...</value>
+  </data>
+  <data name="DeletingServerGroup" xml:space="preserve">
+    <value>Deleting group '{0}'...</value>
+  </data>
+  <data name="DisabledStatus" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="EnabledStatus" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="EndpointUrlLabel" xml:space="preserve">
+    <value>Service URL (example:  https://server:8090/)</value>
+  </data>
+  <data name="FailedToDeleteBackupServer" xml:space="preserve">
+    <value>There was a problem deleting DPM Server '{0}'.</value>
+  </data>
+  <data name="FailedToDeleteServerGroup" xml:space="preserve">
+    <value>There was a problem deleting group '{0}'.</value>
+  </data>
+  <data name="FailedToRegisterVmmServer" xml:space="preserve">
+    <value>Failed to register VMM server '{0}'.</value>
+  </data>
+  <data name="FailedToSetSpfServer" xml:space="preserve">
+    <value>There was a problem setting the SPF serer endpoint.</value>
+  </data>
+  <data name="FailedToUpdateBackupServer" xml:space="preserve">
+    <value>Failed to update backup server '{0}'.</value>
+  </data>
+  <data name="FailedToUpdatemmServer" xml:space="preserve">
+    <value>Failed to update VMM server '{0}'.</value>
+  </data>
+  <data name="GroupLabel" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="GroupNameLabel" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="GroupNameLengthCheckMessage" xml:space="preserve">
+    <value>The field must be a string between {:min:} and {:max:} characters</value>
+  </data>
+  <data name="InitializingMessage" xml:space="preserve">
+    <value>Initializing</value>
+  </data>
+  <data name="LengthRangeCheckMessage" xml:space="preserve">
+    <value>The field must be a string between {:min:} and {:max:} characters</value>
+  </data>
+  <data name="ManageYourVmBackupSubTitle" xml:space="preserve">
+    <value>Manage your Virtual Machine Backup infrastructure</value>
+  </data>
+  <data name="PasswordLabel" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PleaseProvideDpmServerNameMessage" xml:space="preserve">
+    <value>Please provide the DPM server name</value>
+  </data>
+  <data name="PleaseProvideGroupNameMessage" xml:space="preserve">
+    <value>Please provide the group name</value>
+  </data>
+  <data name="PleaseProvidePasswordMessage" xml:space="preserve">
+    <value>Please provide the administrator password</value>
+  </data>
+  <data name="PleaseProvideUsernameMessage" xml:space="preserve">
+    <value>Please provide the administratior user name</value>
+  </data>
+  <data name="PleaseProvideVmmServerNameMessage" xml:space="preserve">
+    <value>Please provide the VMM server name</value>
+  </data>
+  <data name="QuickCreateAltText" xml:space="preserve">
+    <value>Quick Start</value>
+  </data>
+  <data name="QuickStartTabTitle" xml:space="preserve">
+    <value>Virtual Machine Backup</value>
+  </data>
+  <data name="RegisterHeader" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="RegisteringVmmServer" xml:space="preserve">
+    <value>Registering VMM server '{0}'...</value>
+  </data>
+  <data name="RegisterSpfEndpointDescription" xml:space="preserve">
+    <value>Register your System Center Service Provider Foundation Endpoint</value>
+  </data>
+  <data name="RegisterSpfEndpointHeader" xml:space="preserve">
+    <value>Register System Center Service Provider Foundation Endpoint</value>
+  </data>
+  <data name="RegisterSpfEndpointTitle" xml:space="preserve">
+    <value>Register System Center Service Provider Foundation Endpoint</value>
+  </data>
+  <data name="RegisterVmBackupProviderEndpoint" xml:space="preserve">
+    <value>You need to install a VM Backup resource provider to enable this functionality.</value>
+  </data>
+  <data name="RegisterVmmServerHeader" xml:space="preserve">
+    <value>Register System Center Virtual Machine Manager Server</value>
+  </data>
+  <data name="RegisterVmmServersDescription" xml:space="preserve">
+    <value>Register your SPF associated Virtual Machine Manager servers</value>
+  </data>
+  <data name="RegisterVmmServersTitle" xml:space="preserve">
+    <value>Register Associated Virtual Machine Manager Servers</value>
+  </data>
+  <data name="RepairBackupServerHeader" xml:space="preserve">
+    <value>Repair System Center Data Protection Manager Server Connection</value>
+  </data>
+  <data name="RepairHeader" xml:space="preserve">
+    <value>Repair Connection</value>
+  </data>
+  <data name="ServerGroupIsCreated" xml:space="preserve">
+    <value>Server Group '{0}' has been created.</value>
+  </data>
+  <data name="ServerGroupsTabName" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="ServerNameLengthCheckMessage" xml:space="preserve">
+    <value>The field mujst be a string of at least {:min} characters</value>
+  </data>
+  <data name="SettingSpfServer" xml:space="preserve">
+    <value>Setting the SPF server endpoint...</value>
+  </data>
+  <data name="SkipQuickStartChoice" xml:space="preserve">
+    <value>Skip Quick Start the next time I visit</value>
+  </data>
+  <data name="SpecifySpfEndpointUrlMessage" xml:space="preserve">
+    <value>Specify System Center Service Provider Foundation endpoint URL</value>
+  </data>
+  <data name="StatusActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="StatusNotRegistered" xml:space="preserve">
+    <value>Not Registered</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="SuccessfullyDeletedBackupServer" xml:space="preserve">
+    <value>DPM Server '{0}' has been deleted.</value>
+  </data>
+  <data name="SuccessfullyDeletedServerGroup" xml:space="preserve">
+    <value>Group '{0}' deleted.</value>
+  </data>
+  <data name="SuccessfullyRegisteredVmmServer" xml:space="preserve">
+    <value>Registerd VMM server '{0}'.</value>
+  </data>
+  <data name="SuccessfullySetSpfServer" xml:space="preserve">
+    <value>Successfully set the SPF server endpoint.</value>
+  </data>
+  <data name="SuccessfullyUpdatedBackupServer" xml:space="preserve">
+    <value>Updated backup server '{0}'.</value>
+  </data>
+  <data name="SuccessfullyUpdatedVmmServer" xml:space="preserve">
+    <value>Updated VMM server '{0}'.</value>
+  </data>
+  <data name="TabContainerTitleOverride" xml:space="preserve">
+    <value>Virtual Machine Backup</value>
+  </data>
+  <data name="TheFieldMustNotContainSpecialMessage" xml:space="preserve">
+    <value>The field must not contain special characters</value>
+  </data>
+  <data name="ThereWasAnErrorCreatingYourBackupServer" xml:space="preserve">
+    <value>There was a problem registering your DPM Server '{0}'.</value>
+  </data>
+  <data name="ThereWasAnErrorCreatingYourGroup" xml:space="preserve">
+    <value>There was a problem creating Server Group '{0}'. </value>
+  </data>
+  <data name="UpdatingBackupServer" xml:space="preserve">
+    <value>Updating backup server '{0}'... </value>
+  </data>
+  <data name="UpdatingVmmServer" xml:space="preserve">
+    <value>Updating VMM server '{0}'...</value>
+  </data>
+  <data name="UsernameLabel" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="VmBackupMenuDescription" xml:space="preserve">
+    <value>Create and manage Virtual Machine Backup Servers</value>
+  </data>
+  <data name="VmBackupMenuName" xml:space="preserve">
+    <value>Virtual Machine Backup</value>
+  </data>
+  <data name="VmBackupName" xml:space="preserve">
+    <value>VM Backup</value>
+  </data>
+  <data name="VmBackupServer" xml:space="preserve">
+    <value>VM Backup Server</value>
+  </data>
+  <data name="VmCBackupDisplay" xml:space="preserve">
+    <value>Virtual Machine Backup</value>
+  </data>
+  <data name="VmmServerNameLabel" xml:space="preserve">
+    <value>VMM Server Name (FQDN)</value>
+  </data>
+  <data name="VmmServersTabName" xml:space="preserve">
+    <value>VMM Servers</value>
+  </data>
+  <data name="YouCurrentlyHaveNoBackupServers" xml:space="preserve">
+    <value>You currently have no backup servers registered.</value>
+  </data>
+  <data name="YouCurrentlyHaveNoServerGroups" xml:space="preserve">
+    <value>You currently have no server groups registered.</value>
+  </data>
+  <data name="YouCurrentlyHaveNoVmmServers" xml:space="preserve">
+    <value>You currently have no VMM servers registered.</value>
+  </data>
+</root>

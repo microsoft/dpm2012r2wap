@@ -1,0 +1,102 @@
+.vmbackupadmin-quickStart.adminQuickStart .steps .quickstart-registerSpfEndpoint {
+    background: url(/Content/VmBackupAdmin/Images/quickstart_connectto.png) 0 50% no-repeat;
+}
+
+.vmbackupadmin-quickStart.adminQuickStart .steps .quickstart-registerVmmServers {
+    background: url(/Content/VmBackupAdmin/Images/quickstart_connectto.png) 0 50% no-repeat;
+}
+
+.ts-quickStart .steps .quickstart-step2 {
+    background: url(/Content/VmBackupAdmin/Images/quickstart_connectto.png) no-repeat;
+}
+
+.ts-quickStart .steps .quickstart-step3 {
+    background: url(/Content/VmBackupAdmin/Images/quickstart_connectto.png) no-repeat;
+}
+
+#ts-settings input[type="text"], #hw-settings input[type="password"] {
+    padding: 4px;
+    width: 300px;
+}
+
+.ts-settingsTab {
+    width: 95%;
+}
+
+/* Fix the Menu Icon*/
+.fxs-menu li div.VmBackupAdminMenuItem.icon img {
+    background: url(/Content/VmBackupAdmin/VMBackup.png) no-repeat;
+    left: -35px;
+    top: -1px;
+    padding-left: 80px;
+    background-size: 70px;
+    background-position-x: -2px;
+}
+
+/* Fix the Connect VMM Server Menu Icon */
+.fxs-menu li div.ConnectToVmm.icon img {
+    left: 1px;
+    top: -999px;
+}
+
+.vmBackup-edit-item {
+    width: 460px;
+    height: 45px;
+}
+.vmBackup-edit-item input {
+    width: 436px;
+}
+
+.vmBackup-edit-item select {
+    width: 455px;
+}
+
+.vmBackup-userNamePassword {
+    width: 460px;
+    height: 45px;
+}
+
+.vmBackup-userNamePassword select {
+    width: 100%;
+}
+
+.vmBackup-userNamePassword input {
+    width: 202px;
+}
+
+.vmBackup-userName {
+    float: left;
+    width: 49%;
+}
+
+.vmBackup-password {
+    float: right;
+    width: 49%;
+}
+
+.vmBackup-create .aux-dialogText {
+    border-left:5px solid #E2E3E5;
+    padding:4px;
+    padding-left:12px
+}
+
+.vmBackup-create .vmBackup-spacer{
+    margin-top: 12px;
+}
+
+.vmBackup-drawer-form-item-checkbox {
+    margin-top: 28px;
+}
+
+.vmBackup-drawer-form-item-checkbox input[type="checkbox"] {
+    background-color: inherit;
+    width: auto;
+    padding: 0;
+    margin: -2px 10px 0 0;
+    vertical-align: middle;
+}
+
+.vmBackup-drawer-form-item-checkbox label {
+    display: inline-block;
+    text-transform: uppercase;
+}

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<site xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" locale="en-us">
+  <set setContextId="vmbackupadminextension.quickstart" title="vmbackupadminextension.quickstart">
+    <relatedTopic topicContextId="0" title="Virtual Machine Backup QuickStart" id="quickstart(en-us,azure.100)" />
+  </set>
+</site>

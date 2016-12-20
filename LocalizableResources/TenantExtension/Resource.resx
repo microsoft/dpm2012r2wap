@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AreYouSureYouWantToBackupVirtualMachine" xml:space="preserve">
+    <value>Are you sure you want to backup virtual machine '{0}'?</value>
+  </data>
+  <data name="AreYouSureYouWantToProtect" xml:space="preserve">
+    <value>Are you sure you want to add protection to virtual machine '{0}'?</value>
+  </data>
+  <data name="AreYouSureYouWantToRemoveProtection" xml:space="preserve">
+    <value>Are you sure you want to remove protection on virtual machine '{0}'?</value>
+  </data>
+  <data name="AreYouSureYouWantToRestoreVirtualMachine" xml:space="preserve">
+    <value>Are you sure you want to restore virtual machine '{0}'?</value>
+  </data>
+  <data name="BackingUpVirtualMachine" xml:space="preserve">
+    <value>Submitting job to backup virtual machine '{0}'...</value>
+  </data>
+  <data name="ColumnBackupPolicy" xml:space="preserve">
+    <value>Backup Policy</value>
+  </data>
+  <data name="ColumnLastRecoveryPoint" xml:space="preserve">
+    <value>Newest Recovery Point</value>
+  </data>
+  <data name="ColumnProtectionStatus" xml:space="preserve">
+    <value>Protection Status</value>
+  </data>
+  <data name="ColumnRecoveryPoints" xml:space="preserve">
+    <value>Recovery Points</value>
+  </data>
+  <data name="ColumnSubscription" xml:space="preserve">
+    <value>Subscription</value>
+  </data>
+  <data name="ColumnVMName" xml:space="preserve">
+    <value>VM Name</value>
+  </data>
+  <data name="ColumnVMStatus" xml:space="preserve">
+    <value>VM Status</value>
+  </data>
+  <data name="CommandBackupVM" xml:space="preserve">
+    <value>Backup VM</value>
+  </data>
+  <data name="CommandProtectVM" xml:space="preserve">
+    <value>Protect VM</value>
+  </data>
+  <data name="CommandRemoveProtection" xml:space="preserve">
+    <value>Remove Protection</value>
+  </data>
+  <data name="CommandRestoreVM" xml:space="preserve">
+    <value>Restore VM</value>
+  </data>
+  <data name="FailedToSubmitBackupVirtualMachine" xml:space="preserve">
+    <value>Job to backup virtual machine '{0}' could not be submitted.</value>
+  </data>
+  <data name="FailedToSubmitProtectingVirtualMachine" xml:space="preserve">
+    <value>Job to protect virtual machine '{0}' could not be submitted.</value>
+  </data>
+  <data name="FailedToSubmitRemoveProtectionFromVirtualMachine" xml:space="preserve">
+    <value>Job to remove protection from virutal machine '{0}' could not be submitted.</value>
+  </data>
+  <data name="FailedToSubmitRestoringVirtualMachine" xml:space="preserve">
+    <value>Job to restore virtual machine '{0}' could not be submitted.</value>
+  </data>
+  <data name="FailureLoadingRestorePoints" xml:space="preserve">
+    <value>There was a problem loading restore points for virtual machine '{0}.</value>
+  </data>
+  <data name="LetsSelectResourcePointTitle" xml:space="preserve">
+    <value>Let’s choose a restore point for the virtual machine ‘{0}’</value>
+  </data>
+  <data name="LoadingRestorePoints" xml:space="preserve">
+    <value>Loading restore points for virtual machine '{0}'...</value>
+  </data>
+  <data name="ProtectingVirtualMachine" xml:space="preserve">
+    <value>Submitting job to protect virtual machine '{0}'...</value>
+  </data>
+  <data name="RecoverySourceField" xml:space="preserve">
+    <value>Restore Point</value>
+  </data>
+  <data name="RemovingProtectionFromVirtualMachine" xml:space="preserve">
+    <value>Removing protection from VM '{0}'...</value>
+  </data>
+  <data name="RestartNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="RestartVirtualMachineField" xml:space="preserve">
+    <value>Restart the virtual machne after restore</value>
+  </data>
+  <data name="RestartYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="RestoringVirtualMachine" xml:space="preserve">
+    <value>Submitting job to restore virtual machine '{0}'...</value>
+  </data>
+  <data name="SelectResourcePointSubtitle" xml:space="preserve">
+    <value>If the virtual machine is running, the virtual machine will be shutdown before the restore begins. The virtual machine will show as misisng during the restore process.</value>
+  </data>
+  <data name="SelectRestorePointHeader" xml:space="preserve">
+    <value>Choose a restore point</value>
+  </data>
+  <data name="StatusBackingUp" xml:space="preserve">
+    <value>Backing Up...</value>
+  </data>
+  <data name="StatusBackupComplete" xml:space="preserve">
+    <value>Backup Complete</value>
+  </data>
+  <data name="StatusBackupFailed" xml:space="preserve">
+    <value>Backup Failed!!!</value>
+  </data>
+  <data name="StatusNotProtected" xml:space="preserve">
+    <value>Not Protected</value>
+  </data>
+  <data name="StatusProtectComplete" xml:space="preserve">
+    <value>Protection Complete</value>
+  </data>
+  <data name="StatusProtected" xml:space="preserve">
+    <value>Protected</value>
+  </data>
+  <data name="StatusProtecting" xml:space="preserve">
+    <value>Protecting...</value>
+  </data>
+  <data name="StatusProtectionFailed" xml:space="preserve">
+    <value>Protection Failed!!!</value>
+  </data>
+  <data name="StatusRemoveProtectionFailed" xml:space="preserve">
+    <value>Removing Protection Failed!!!</value>
+  </data>
+  <data name="StatusRemovingProtection" xml:space="preserve">
+    <value>Removing Protection...</value>
+  </data>
+  <data name="StatusRestoreComplete" xml:space="preserve">
+    <value>Restore Complete</value>
+  </data>
+  <data name="StatusRestoreFailed" xml:space="preserve">
+    <value>Restore Failed!!!</value>
+  </data>
+  <data name="StatusRestoring" xml:space="preserve">
+    <value>Restoring...</value>
+  </data>
+  <data name="StatusSubmittingJob" xml:space="preserve">
+    <value>Submitting job...</value>
+  </data>
+  <data name="SuccessfullyLoadedRestorePoints" xml:space="preserve">
+    <value>Successfully loaded the restore points for virtual machine '{0}'.</value>
+  </data>
+  <data name="SuccessfullySubmittedBackingUpVirtualMachine" xml:space="preserve">
+    <value>Job to backup virtual machine '{0}' has been submitted.</value>
+  </data>
+  <data name="SuccessfullySubmittedProtectingVirtualMachine" xml:space="preserve">
+    <value>Job to protect virtual machine '{0}' has been submitted.</value>
+  </data>
+  <data name="SuccessfullySubmittedRemovingProtectionFromVirtualMachine" xml:space="preserve">
+    <value>Job to remove protection from virtual machine '{0}' has been submitted.</value>
+  </data>
+  <data name="SuccessfullySubmittedRestoringVirtualMachine" xml:space="preserve">
+    <value>Job to restore virtual machine '{0}' has been submitted. The virtual machine will show up as 'Missing' until the restore completes.</value>
+  </data>
+  <data name="TabContainerTitleOverride" xml:space="preserve">
+    <value>Virtual Machine Backup</value>
+  </data>
+  <data name="VmBackupName" xml:space="preserve">
+    <value>VM Backup</value>
+  </data>
+  <data name="VmBackupTabName" xml:space="preserve">
+    <value>VM Backup</value>
+  </data>
+  <data name="VmBackupType" xml:space="preserve">
+    <value>VM Backup</value>
+  </data>
+</root>

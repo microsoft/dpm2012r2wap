@@ -1,0 +1,45 @@
+﻿<div>
+    <div class="hs-empty">
+        <div class="hs-empty-header">
+            <p id="msg-nothing">{{res 'NoRegisteredResourceProvider' /}}</p>
+        </div>
+    </div>
+
+    <div class="quick-start-view">
+        <div class="quickStartHeader">
+            <img class="quickstart-graphic" src="{{url:QuickStartImage}}" alt="{{res 'QuickCreateAltText' _encode='attr'/}}" />
+            <div class="description">
+                <h2>{{>Title}}</h2>
+                <div class="headersubtext">{{>SubTitle}}</div>
+                <div class="quickstartCheckboxContainer">
+                    <span class="quickstartCheckbox"></span>
+                    <span class="quickstartCheckboxText">{{>ChoiceText}}</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="steps-container">
+            <ul class="steps">
+                <li class="quickstart-registerSpfEndpoint float-all clearfix">
+                    <div class="detail">
+                        <div class="detailTitle">
+                            {{>RegisterSpfEndpointTitle}}
+                            <span class="quickstart-register-ballon"></span>
+                        </div>
+                        <div class="detailDescription">{{res "InitializingMessage"/}}</div>
+                    </div>
+                </li>       
+                <li class="quickstart-registerVmmServers float-all clearfix">
+                    <div class="detail">
+                        <div class="detailTitle">
+                            {{>RegisterVmmServersTitle}}
+                            <span class="quickstart-register-ballon"></span>
+                        </div>
+                        <div class="detailDescription">{{res "InitializingMessage"/}}</div>
+                    </div>
+                </li>  
+            </ul>
+        </div>
+    </div>
+</div>

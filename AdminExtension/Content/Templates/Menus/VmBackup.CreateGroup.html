@@ -1,0 +1,24 @@
+﻿<div class="vmBackup-create">
+    <div class="content">
+        <div id="groupInfoForm">
+                <div class="drawer-form-item vmBackup-edit-item">
+                    <label for="vmBackup_GroupName">
+                    {{res "GroupNameLabel"/}}
+                    </label>
+                    <input type="text" id="vmBackup_GroupName" name="vmBackup_GroupName"
+                        data-val="true"
+                        data-val-waznospecialchars="{{res 'TheFieldMustNotContainSpecialMessage' _encode='attr'/}}"
+                        data-val-required="{{res 'PleaseProvideGroupNameMessage' _encode='attr'/}}"
+                        data-val-length="{{res 'GroupNameLengthCheckMessage' _encode='attr'/}}"
+                        data-val-length-max="128"
+                        data-val-length-min="3" />
+                </div>               
+                <div class="vmBackup-drawer-form-item-checkbox">
+                    <input type="checkbox" id="vmBackup_AzureBackupEnabled"/>
+                    <label for="vmBackup_AzureBackupEnabled">
+                        {{res "AzureBackupEnabledLabel"/}}
+                    </label>
+                </div>  
+        </div>
+    </div>
+</div>

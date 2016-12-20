@@ -1,0 +1,131 @@
+﻿<div id="fxhelp-article" xmlns="http://www.w3.org/1999/xhtml">
+  <p>
+    <strong>Virtual Machine Backup Quick Start</strong> provides links to pages for registering your System Center Service Provider Foundation (SPF) endpoint and for registering the connection information for each System Center Virtual Machine Manager server managed by SPF.
+  </p>
+  <p>
+    To add an existing instance of SQL Server to a hosting SQL Server group, click <strong>Add an existing server to the hosting server group</strong>, <strong>Connect To</strong> and provide the following information. After providing the information in the table below, click <strong>CONNECT</strong>.
+  </p>
+  <h3 class="subHeading"> </h3>
+  <table>
+    <tr>
+      <th>
+        <strong>Value</strong>
+      </th>
+      <th>
+        <strong>Description</strong>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <p>SQL Server group</p>
+      </td>
+      <td>
+        <p>Specify the SQL Server group to create the SQL Server database in.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>SQL Server name</p>
+      </td>
+      <td>
+        <p>Enter the name of an existing instance of SQL Server (versions 2008 R2 and higher) or SQL Server Express (versions 2008 R2 and higher).</p>
+        <div class="alert">
+          <table>
+            <tr>
+              <th align="left">
+                <img src="/HelpContent/GetImage?ExtensionContext=sqladminextension.quickstart&amp;ImageId=jj710118.note(en-us,azure.100).gif&amp;Locale=en-us" class="fxhelp-article-image" alt="note" xmlns="" />Note
+              </th>
+            </tr>
+            <tr>
+              <td>
+                If you enter the name of a SQL Server instance other than the "default" SQL Server instance, ensure that the SQL Server Browser service is running on the SQL Server host computer.<p />
+              </td>
+            </tr>
+          </table>
+          <p>
+
+          </p>
+        </div>
+        <p>If the group selected is Resource Governor enabled, only SQL Server 2014 (or higher) Enterprise Edition servers can be registered.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Username</p>
+      </td>
+      <td>
+        <p>Specify the username of an account with rights to create databases on the designated instance of SQL Server.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Password</p>
+      </td>
+      <td>
+        <p>Specify the password of an account with rights to create databases on the designated instance of SQL Server.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Size of Hosting Server in GB</p>
+      </td>
+      <td>
+        <p>Specify the maximum size of the SQL Server instance to be provisioned for the purpose of hosting subscriber databases.</p>
+      </td>
+    </tr>
+  </table>
+  <p>If the group selected is Resource Governor enabled, a second page contain the following settings related to sizing resource pools:</p>
+  <h3 class="subHeading"> </h3>
+  <table>
+    <tr>
+      <th>
+        Value
+      </th>
+      <th>
+        Description
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <p>Number of CPU Cores</p>
+      </td>
+      <td>
+        <p>Specify the number of CPU cores installed on the server.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Installed Memory (GB)</p>
+      </td>
+      <td>
+        <p>Specify the installed memory in gigabytes for the server.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Number of IOPS per Volume</p>
+      </td>
+      <td>
+        <p>Specify the total number of physical IO operations per second (IOPS) supported per volume for this server.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Maximum Number of Resource Pools Allowed</p>
+      </td>
+      <td>
+        <p>Specify the maximum allowed number of resource pools that can be created on this server. Windows Azure Pack currently supports up to 18 resource pools per server.</p>
+      </td>
+    </tr>
+  </table>
+  <p>
+    To create a SQL Server Group, click <strong>Groups allow you to manage your SQL Server resources in organized pools</strong>, <strong>Create a Group</strong>, select the group type (either <strong>Standalone servers</strong> or <strong>High availability (Always on enabled)</strong>), enter the new group name, and then click <strong>Create a Group</strong>.
+  </p>
+  <p>
+    Windows Azure Pack provides support for the SQL AlwaysOn Availability Groups feature, a high-availability and disaster recovery solution that provides an enterprise-level alternative to database mirroring. This feature reduces the dependency of the tenant database on the fallibility of a single SQL instance. For more information about using SQL AlwaysOn Availability Groups with Windows Azure Pack, see <a href="http://go.microsoft.com/fwlink/?LinkId=317765" class="fxhelp-article-link" target="_blank">http://go.microsoft.com/fwlink/?LinkId=317765</a>.
+  </p>
+  <p>The SQL Resource Governor feature enables you to manage SQL Server workloads and resources by specifying limits on resource consumption by incoming requests. These resources are CPU, physical IO, and memory. </p>
+  <p>
+    For more information about using SQL Server Resource Governor with Windows Azure Pack, see <a href="http://go.microsoft.com/fwlink/?LinkId=522539" class="fxhelp-article-link" target="_blank">http://go.microsoft.com/fwlink/?LinkId=522539</a>.
+  </p>
+</div>

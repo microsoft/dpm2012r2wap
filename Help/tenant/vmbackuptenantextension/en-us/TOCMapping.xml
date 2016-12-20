@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<site xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" locale="en-us">
+  <set setContextId="vmbackuptenantextension.vmbackup" title="vmbackuptenantextension.vmbackup">
+    <relatedTopic topicContextId="0" title="Add Protection" id="addprotection(en-us,azure.100)" />
+  </set>
+</site>

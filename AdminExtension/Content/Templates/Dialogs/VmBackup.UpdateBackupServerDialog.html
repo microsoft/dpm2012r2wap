@@ -1,0 +1,31 @@
+﻿<div class="aux-editEndpointContainer">
+    <p class="aux-dialogHeader">{{res 'RepairHeader' /}}</p>
+    <p class="aux-dialogSubHeader">{{res "RepairBackupServerHeader"/}}</p>
+
+    <div class="aux-editProvider">
+        <form id="aux-editBackupServerForm" class="aux-dialog-form">
+            <div class="aux-dialog-item">
+                <label for="serverName" class="aux-dialog-item">{{res 'BackupServerNameLabel' /}}</label>
+                <input id="serverName" name="serverName" type="text" maxlength="1024" class="fx-textbox fx-validation fx-editablecontrol" disabled
+                        data-val="true"
+                        data-val-nwk="{{res 'TheFieldMustNotContainSpecialMessage'  _encode='attr'/}}"
+                        data-val-nwk-type="idn"
+                        data-val-required="{{res 'PleaseProvideDpmServerNameMessage' _encode='attr'/}}"
+                        data-val-length="{{res 'ServerNameLengthCheckMessage' _encode='attr'/}}"
+                        data-val-length-min="3" />
+            </div>
+            <div class="aux-dialog-item">
+                <label for="userName" class="aux-dialog-item">{{res 'UsernameLabel' /}}</label>
+                <input id="userName" name="userName" maxlength="128" type="text" class="fx-textbox fx-validation fx-editablecontrol" 
+                    data-val="true" data-val-required="{{res 'PleaseProvideUsernameMessage' _encode='attr'/}}" 
+                    data-val-length="{{res 'LengthRangeCheckMessage' _encode='attr'/}}" data-val-length-min="1" data-val-length-max="128" />
+            </div>
+             <div class="aux-dialog-item">
+                <label for="password" class="aux-dialog-item">{{res 'PasswordLabel' /}}</label>
+                <input id="password" name="password" maxlength="255" type="password" class="fx-textbox fx-validation fx-editablecontrol" 
+                    data-val="true" data-val-required="{{res 'PleaseProvidePasswordMessage' _encode='attr'/}}" 
+                    data-val-length="{{res 'LengthRangeCheckMessage' _encode='attr'/}}" data-val-length-min="1" data-val-length-max="255" />
+             </div>
+        </form>
+    </div>
+</div>

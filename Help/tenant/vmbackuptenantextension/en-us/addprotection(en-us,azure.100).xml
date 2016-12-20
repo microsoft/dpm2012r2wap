@@ -1,0 +1,5 @@
+﻿<div id="fxhelp-article" xmlns="http://www.w3.org/1999/xhtml">
+  <p>
+    <strong>Add Protection</strong> sets the virtual machine up to be protected. After the initial replica is created, if allowed, additional backups can be taken out-of-sync with the scheduled backup.
+  </p>
+</div>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<uiManifest>
+  <!--VmBackup Management-->
+  <extension name="VmBackupAdminExtension"
+             baseUri="~/Content/VmBackupAdmin">
+    <scripts>
+      <script src="~/Scripts/VmBackup.Controller.js" />
+      <script src="~/Scripts/VmBackup.QuickCreate.js" />
+      <script src="~/Scripts/VmBackup.BackupServersTab.js" />
+      <script src="~/Scripts/VmBackup.VmmServersTab.js" />
+      <script src="~/Scripts/VmBackup.ServerGroupsTab.js" />
+      <script src="~/Scripts/VmBackup.FileServersTab.js" />
+      <script src="~/Scripts/VmBackup.ProductsTab.js" />
+      <script src="~/Scripts/VmBackup.QuickStartTab.js" />
+      <script src="~/Scripts/VmBackup.SettingsTab.js" />
+      <script src="~/Scripts/VmBackup.ControlsTab.js" />
+      <script src="~/VmBackupAdminExtension.js" />
+
+      <!--Self registration-->
+      <script src="~/extensions.data.js" />
+    </scripts>
+    <stylesheets>
+      <stylesheet src="~/Styles/VmBackupAdmin.css"/>
+      <stylesheet src="~/Styles/VmBackupControls.css"/>
+    </stylesheets>
+    <templates>
+      <!-- Menus -->
+      <template name="createGroupMenu"
+                src="~/Templates/Menus/VmBackup.CreateGroup.html" />
+      <template name="createBackupServerMenu"
+                src="~/Templates/Menus/VmBackup.CreateBackupServer.html" />
+      <template name="createVmmServerMenu"
+                 src="~/Templates/Menus/VmBackup.CreateVmmServer.html" />
+
+      <!-- Wizards -->
+      <template name="registerSpfEndpointDialog"
+           src="~/Templates/Dialogs/VmBackup.RegisterSpfEndpointDialog.html" />
+      <template name="registerVmmServerDialog"
+           src="~/Templates/Dialogs/VmBackup.RegisterVmmServerDialog.html" />
+      <template name="updateBackupServerDialog"
+           src="~/Templates/Dialogs/VmBackup.UpdateBackupServerDialog.html" />
+
+      <!-- Tabs -->
+      <template name="backupServersTab"
+                src="~/Templates/Tabs/VmBackup.BackupServersTab.html" />
+      <template name="backupServersTabEmpty"
+                src="~/Templates/Tabs/VmBackup.BackupServersEmptyTab.html" />
+      <template name="serverGroupsTab"
+                src="~/Templates/Tabs/VmBackup.ServerGroupsTab.html" />
+      <template name="serverGroupsTabEmpty"
+                src="~/Templates/Tabs/VmBackup.ServerGroupsEmptyTab.html" />
+      <template name="vmmServersTab"
+                src="~/Templates/Tabs/VmBackup.VmmServersTab.html" />
+      <template name="vmmServersTabEmpty"
+                src="~/Templates/Tabs/VmBackup.VmmServersEmptyTab.html" />
+
+      <template name="quickStartTab"
+                src="~/Templates/Tabs/QuickStartTab.html" />
+      <template name="quickStartTabContent"
+                src="~/Templates/Tabs/QuickStartTabContent.html" />
+
+      <!-- Old -->
+      <template name="fileServersTab"
+                src="~/Templates/Tabs/FileServersTab.html" />
+      <template name="fileServersTabEmpty"
+                src="~/Templates/Tabs/FileServersTabEmpty.html" />
+      <template name="productsTab"
+                src="~/Templates/Tabs/ProductsTab.html" />
+      <template name="productsTabEmpty"
+                src="~/Templates/Tabs/ProductsTabEmpty.html" />
+      <template name="settingsTab"
+                src="~/Templates/Tabs/SettingsTab.html" />
+      <template name="controlsTab"
+                src="~/Templates/Tabs/ControlsTab.html" />
+      <template name="registerEndpoint"
+                src="~/Templates/Dialogs/RegisterEndpoint.html" />
+    </templates>
+  </extension>
+</uiManifest>
